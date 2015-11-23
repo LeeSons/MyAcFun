@@ -1,0 +1,27 @@
+//
+//  MyAcfun.pch
+//  MyAcfun
+//
+//  Created by lanou3g on 15/11/10.
+//  Copyright © 2015年 李成鹏.com. All rights reserved.
+//
+
+#ifndef MyAcfun_pch
+#define MyAcfun_pch
+#define windowWidth [UIScreen mainScreen].bounds.size.width
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "URLS.h"
+#import "LCPNetWorking.h"
+#import "LCPAnimation.h"
+#import "NSTimer+MyTimer.h"
+#import "UIColor+RandomColor.h"
+#import <AFNetworking.h>
+#import <UIImageView+WebCache.h>
+#import "MJRefresh.h"
+#import "AdDataModel.h"
+#import "AdScrollView.h"
+#import "ICSDrawerController.h"
+#import "ICSDropShadowView.h"
+#import "JDStatusBarNotification.h"
+#endif /* MyAcfun_pch */
